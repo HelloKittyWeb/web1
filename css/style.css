@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat";
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 56px 80px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+header nav a,
+.produkt-main-description-1,
+.cards-figure figcaption {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 150%;
+
+
+}
+
+header button,
+.produkt-main-description button {
+    background: #e453bfd8;
+    color: white;
+    border-radius: 20px;
+    width: 80px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.produkt-main {
+    margin: 60px 0px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.produkt-main-description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 500px;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 100%;
+
+}
+
+.produkt-main-description h2,
+.produkt-main-price,
+.card1 h2,
+.footer-info h2 {
+    font-size: 26px;
+    line-height: 150%;
+}
+
+.produkt-main-description-1,
+h2,
+.card-description {
+    color: rgb(14, 17, 56);
+}
+
+.produkt-main-description button {
+    width: unset;
+}
+
+.cards {
+    margin: 24px 0 120px;
+    display: flex;
+    gap: 35px;
+}
+
+.cards-figure {
+    flex: auto;
+}
+
+.cards-figure figcaption {
+    margin-top: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e6e6e6;
+    padding-top: 48px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 32px;
+}
+
+.footer-links-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-links-list a,
+.footer-links h3 {
+    font-weight: 500;
+    line-height: 150%;
+    color: #454545;
+    text-decoration: none;
+}
+
+.footer-links h3 {
+    color: black;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
