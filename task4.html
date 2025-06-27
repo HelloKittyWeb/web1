@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практическое задание №4</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <button class="burger-menu">
+            <img src="icon/burger-menu.svg" alt="">
+
+        </button>
+        <a class="logo" href="index.html">
+            <p>StayVent</p>
+        </a>
+        <nav>
+            <a href="#">Главная</a>
+            <a href="#">Отели</a>
+            <a href="#event">Мероприятия</a>
+            <a href="#description">О нас</a>
+            <a href="#contacts">Контакты</a>
+            <button class="booking">Забронировать</button>
+        </nav>
+
+        <div class="language">
+            <img src="icon/lang.svg" alt="">
+            En
+        </div>
+    </header>
+    <main>
+        <section class="start">
+            <div class="start-choice">
+                <div class="start-hotel">
+                    <h4>Отель</h4>
+                    <select name="" id="">
+                        <option value="">Выберите отель</option>
+                        <option value="">Selectum Noa Belek</option>
+                        <option value="">Pine Beach Belek</option>
+                        <option value="">Club Sun Heaven Family & SPA</option>
+                        <option value="">Palmeras Beach Hotel</option>
+                    </select>
+                </div>
+                <div class="start-arrival">
+                    <h4>Прибытие</h4>
+                    <select name="" id="">
+
+                        <option value="">Выберите дату</option>
+                        <option value="">01.06.2025</option>
+                        <option value="">02.06.2025</option>
+                        <option value="">03.06.2025</option>
+                        <option value="">04.06.2025</option>
+                        <option value="">05.06.2025</option>
+                        <option value="">06.06.2025</option>
+                    </select>
+                </div>
+                <div class="start-departure">
+                    <h4>Отъезд</h4>
+                    <select name="" id="">
+                        <option value="">Выберите дату</option>
+                        <option value="">07.06.2025</option>
+                        <option value="">08.06.2025</option>
+                        <option value="">09.06.2025</option>
+                        <option value="">10.06.2025</option>
+                        <option value="">11.06.2025</option>
+                        <option value="">12.06.2025</option>
+                    </select>
+                </div>
+                <button>Забронировать</button>
+            </div>
+
+        </section>
+        <section class="description" id="description">
+            <h2>О нас</h2>
+            <p>Откройте для себя удивительные отели и мероприятия</p>
+            <p>Найдите идеальное жилье и захватывающие мероприятия, которые проходят рядом с вами, для незабываемого
+                опыта.</p>
+            <p>StayVent - ваш идеальный гид по роскошным отелям и захватывающим мероприятиям по всему миру. Мы
+                предоставляем подробную информацию о размещении и помогаем вам спланировать идеальное пребывание с
+                нашими курируемыми календарями мероприятий.</p>
+        </section>
+        <section class="event" id="event">
+            <h2>Наши мероприятия</h2>
+            <div class="event-card">
+                <figure class="event-cards">
+                    <img src="image/card2.jpeg" alt="">
+                    <figcaption>
+                        <h4>Музыкальные концерты</h4>
+                        <p>Многие отели приглашают музыкантов или группы для проведения живых концертов, где гости могут
+                            насладиться музыкой в расслабляющей обстановке.</p>
+                    </figcaption>
+                </figure>
+                <figure class="event-cards">
+                    <img src="image/card3.jpg" alt="">
+                    <figcaption>
+                        <h4>Оздоровление тела и духа </h4>
+                        <p>Йога способствует улучшению физического состояния, снижению стресса и повышению уровня
+                            энергии.</p>
+                    </figcaption>
+                </figure>
+                <figure class="event-cards">
+                    <img src="image/card4.jpg" alt="">
+                    <figcaption>
+                        <h4>Спа <br>
+                            процедуры</h4>
+                        <p>Спа-процедуры в отелях включают разнообразные услуги, направленные на расслабление и
+                            оздоровление. К ним относятся массажи, обертывания, пилинги и ароматерапия, а также
+                            использование натуральных компонентов, таких как эфирные масла и лечебные грязи.</p>
+                    </figcaption>
+                </figure>
+            </div>
+
+        </section>
+        <section class="contacts" id="contacts">
+            <h2>Связаться с нами</h2>
+            <form action="" class="contacts-form">
+                <div class="contacts-form-fields">
+                    <input type="text" placeholder="Имя*" required>
+                    <input type="text" placeholder="Фамилия" required>
+                    <input type="text" placeholder="Город">
+                    <input type="text" placeholder="Страна">
+                    <input type="tel" placeholder="Телефон">
+                    <input type="email" placeholder="Электронная почта*" required>
+                </div>
+                <textarea name="" id="" placeholder="Сообщение"></textarea>
+                <button>Отправить</button>
+            </form>
+        </section>
+
+
+
+    </main>
+    <footer>
+        <section class="footer-info">
+            <h2>StayVent</h2>
+            <div class="footer-links">
+                <ul class="footer-links-list">
+                    <h4>О нас</h4>
+                    <li><a href="">О нас</a></li>
+                    <li><a href="">Карьера</a></li>
+                    <li><a href="">Связаться с нами</a></li>
+                </ul>
+                <ul class="footer-links-list">
+                    <h4>Бронирование</h4>
+                    <li><a href="">Запросить счет-фактуру</a></li>
+                    <li><a href="">Найти место для бронирования</a></li>
+                    <li><a href="">Настройки электронной почты</a></li>
+                </ul>
+                <ul class="footer-links-list">
+                    <h4>Новости</h4>
+                    <li><a href="">Пресс-центр</a></li>
+                    <li><a href="">Журнал</a></li>
+                    <li><a href="">Рассылка</a></li>
+                </ul>
+
+            </div>
+            <div class="footer-additional">
+                <div class="footer-social-media">
+                    <a href="#"><img src="icon/instagram.svg" alt=""></a>
+                    <a href="#"><img src="icon/youtube.svg" alt=""></a>
+
+                </div>
+            </div>
+            <div class="footer-additional-policy">
+                <a href="#">Юридические уведомления</a>
+                <a href="#">Политика конфедициальности</a>
+                <a href="#">Политика доступа к файлам cookie</a>
+
+            </div>
+            <p class="footer-rights">Отель «StayVent» 1997–2002 гг. Все права защищены.</p>
+        </section>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
